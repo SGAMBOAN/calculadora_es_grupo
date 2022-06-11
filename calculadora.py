@@ -66,6 +66,7 @@ while cerrar != True :   # Mientras que la variable sea distinta de True se ejec
         resta = num1-num2-num3
         print ("La resta de los tres números es:", resta)
 
+
     elif seleccion == 3:
         pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos. 
     elif seleccion == 4:
