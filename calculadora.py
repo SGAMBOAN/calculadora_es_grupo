@@ -40,9 +40,32 @@ while cerrar != True :   # Mientras que la variable sea distinta de True se ejec
         cerrar = True   # While está esperando esta condición para terminar y muestra el menu infinitas veces.
                         # ponemos pass que no hace nada, temporalmente para que no de error el código.
     elif seleccion == 1:
-        pass #codigo de la suma aqui con sus mensajes, o bien hacemos una función y la llamamos.
+        #codigo de la suma aqui con sus mensajes, o bien hacemos una función y la llamamos.
+        num1 = input("Introduce el primer numero: ")
+        num2 = input("Introduce el segundo numero: ")
+        num3 = input("Introduce el tercer numero: ")
+
+        num1  = int(num1)
+        num2 = int(num2)
+        num3 = int(num3)
+
+        suma = num1+num2+num3
+        
+        print ("La suma de los tres números es:", suma)
+        
     elif seleccion == 2:
-        pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos.
+        #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos.
+        num1 = input("Introduce el primer numero: ")
+        num2 = input("Introduce el segundo numero: ")
+        num3 = input("Introduce el tercer numero: ")
+
+        num1  = int(num1)
+        num2 = int(num2)
+        num3 = int(num3)
+        
+        resta = num1-num2-num3
+        print ("La resta de los tres números es:", resta)
+
     elif seleccion == 3:
         pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos. 
     elif seleccion == 4:
